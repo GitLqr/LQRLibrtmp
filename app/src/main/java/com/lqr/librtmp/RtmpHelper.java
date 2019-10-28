@@ -53,7 +53,7 @@ public class RtmpHelper {
         }
     }
 
-    private void setOnConnectionListener(OnConnectionListener onConnectionListener) {
+    public void setOnConnectionListener(OnConnectionListener onConnectionListener) {
         this.mOnConnectionListener = onConnectionListener;
     }
 
